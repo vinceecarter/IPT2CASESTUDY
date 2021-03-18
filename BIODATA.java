@@ -30,6 +30,18 @@ public class BIODATA {
     }
     static void Section(){
         System.out.println("Technical Service Management - 3C");
+        }   
+    //Mark Ian Donato Code
+    static void Gender(String Name, String Gender){
+        System.out.println(Name + " : " + Gender);
+                }
+
+    static void Goal(String Goal){
+        System.out.println(Goal);
+                }
+    static void Ambition(String Ambition){
+        System.out.println(Ambition);
+    }
     
    
 public static void main(String[] args) {
@@ -55,6 +67,18 @@ public static void main(String[] args) {
         
          System.out.println("---- Section ----");
          Section();
+    
+     //Mark Ian Donato Code
+          System.out.println("---- Gender ----");
+          Gender("Vince Garca", "Male");
+          Gender("Michelle Banaag", "Female");
+          Gender("Mark Ian Donato", "Male");
+ 
+     System.out.println("---- Group's Goal ----");
+        Goal("To be able to generate a system that can benefit and help many people");
+      
+      System.out.println("---- Group's Ambition ----");
+        Ambition("To be a succesfull programmer in the future");
        
     }
 
