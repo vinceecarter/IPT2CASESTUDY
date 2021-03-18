@@ -20,7 +20,16 @@ public class BIODATA {
     static void Campus(){
         System.out.println("San Isidro Campus");
     }
-    
+    //Michelle Banaag Code
+    static void Year(){
+        System.out.println("3rd Year College");
+    }
+   
+    static void Course(){
+        System.out.println("Bachelor of Science Major in Information Technology");
+    }
+    static void Section(){
+        System.out.println("Technical Service Management - 3C");
     
    
 public static void main(String[] args) {
@@ -35,6 +44,17 @@ public static void main(String[] args) {
        
        System.out.println("---- University ----");
        Campus();
+    
+    
+       //Michelle Banaag Code
+       System.out.println("---- Year Level ----");
+       Year();
+  
+        System.out.println("---- Course ----");
+        Course();
+        
+         System.out.println("---- Section ----");
+         Section();
        
     }
 
